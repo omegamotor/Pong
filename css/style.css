@@ -1,0 +1,74 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:gray;
+    color:white;
+    height: 100vh;
+}
+
+canvas{
+    
+    background-color: aqua;
+    border:3px solid white;
+}
+footer{
+    width: 80vw;
+    background-color: red;
+    height: 5vh;
+    
+}
+
+#logo{
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 50px;
+    border: 3px dotted black;
+}
+
+
+#logo>h1{
+    
+    color: black;
+    font-size: 46px;
+    text-align: center;
+    line-height: 100px;
+    
+}
+
+
+
+.content{
+    width: 80vw;
+    margin: auto;
+    
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.com{
+    height: 506px;
+    width: 150px;
+    background-color: #7bb3e5;
+    
+}
+
+.com h1{
+    font-size: 36px;
+    text-align:center;
+    
+}
+.com p{
+    text-align: justify;
+    padding: 15px;
+    
+}
+
